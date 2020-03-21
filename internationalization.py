@@ -26,7 +26,7 @@ from database import db_session
 from user_setting import UserSetting
 from shared_vars import gm
 
-GETTEXT_DOMAIN = 'unobot'
+GETTEXT_DOMAIN = 'nosso_unobot'
 GETTEXT_DIR = 'locales'
 
 

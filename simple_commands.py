@@ -31,8 +31,8 @@ help_text = ("Follow these steps:\n\n"
              " running game with /join\n"
              "3. After at least two players have joined, start the game with"
              " /start\n"
-             "4. Type <code>@unobot</code> into your chat box and hit "
-             "<b>space</b>, or click the <code>via @unobot</code> text "
+             "4. Type <code>@nosso_unobot</code> into your chat box and hit "
+             "<b>space</b>, or click the <code>via @nosso_unobot</code> text "
              "next to messages. You will see your cards (some greyed out), "
              "any extra options like drawing, and a <b>?</b> to see the "
              "current game state. The <b>greyed out cards</b> are those you "
@@ -55,7 +55,7 @@ help_text = ("Follow these steps:\n\n"
              "If you enjoy this bot, "
              "<a href=\"https://telegram.me/storebot?start=mau_mau_bot\">"
              "rate me</a>, join the "
-             "<a href=\"https://telegram.me/unobotupdates\">update channel</a>"
+             "<a href=\"https://telegram.me/nosso_unobotupdates\">update channel</a>"
              " and buy an UNO card game.")
 
 source_text = ("This bot is Free Software and licensed under the AGPL. "
@@ -89,7 +89,7 @@ def source(bot, update):
 def news(bot, update):
     """Handler for the /news command"""
     send_async(bot, update.message.chat_id,
-               text=_("All news here: https://telegram.me/unobotupdates"),
+               text=_("All news here: https://telegram.me/nosso_unobotupdates"),
                disable_web_page_preview=True)
 
 
