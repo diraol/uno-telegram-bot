@@ -11,8 +11,8 @@ services:
         delay: 10s
       restart_policy:
         condition: on-failure
-      secrets:
-        - token
+    secrets:
+      - token
 
 secrets:
   token:
