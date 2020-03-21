@@ -15,7 +15,7 @@
 #
 # You should have received a copy of the GNU Affero General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
-import os
+from pathlib import Path
 
-TOKEN = os.getenv('TOKEN')
+TOKEN = Path('/run/secrets/token').read_text()
 BOTAN_TOKEN = ''  # Optional: Add a botan.io token if you want bot statistics
